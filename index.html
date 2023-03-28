@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Todolist</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="container">
+    <nav class="navbar">
+        <!--         <div class="reset"> -->
+        <button type="reset" id="reset" class="btn">Reset All</button>
+        <!--         </div> -->
+        <div id="searchbar">
+            <input type="text" id="searchitem" placeholder="Search...">
+            <button type="search" id="searchbtn" class="btn"></button>
+        </div>
+    </nav>
+    <div class="head">
+        <h1>To-do list</h1>
+    </div>
+    <form>
+        <div class="header">
+            <h3 id="todotitle">The Title</h3><br>
+            <input type="text" id="titlebox" name="title" placeholder="Enter title..."><br>
+        </div>
+        <div class="header">
+            <h3 id="listtitle">The Task</h3><br>
+            <input type="text" id="listbox" name="list" placeholder="Enter task..."><br>
+        </div>
+        <div class="buttons">
+            <button type="submit" id="submitbtn" class="btn">Create</button>
+            <button type="show" id="showallbtn" class="btn">Show All</button>
+        </div>
+    </form>
+    <div id="searchresult">
+        <ul id="allsearchlist"></ul>
+    </div>
+    <script src="script.js"></script>
+
+    <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+</body>
+
+</html>
